@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12487,22 +12487,22 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <part name="JP2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X8" device="BIG" value="TFT"/>
 <part name="U2" library="tobias" deviceset="RN2483" device="" value="RN2483"/>
 <part name="L80" library="Quectel" deviceset="L80_GNSS_MODULE" device="" value="L80"/>
-<part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="1K"/>
-<part name="C1" library="adafruit" deviceset="C-US" device="C0603" value="1uF"/>
-<part name="C2" library="adafruit" deviceset="C-US" device="C0603" value="1uF"/>
-<part name="C3" library="adafruit" deviceset="C-US" device="C0805" value="10uF"/>
+<part name="R1" library="adafruit" deviceset="R-US_" device="R0805" value="50"/>
+<part name="C1" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C2" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C3" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="U$2" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$3" library="microbuilder" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U$4" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
-<part name="X1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SMACONNECTOR" device="_EDGE_UFL" value="GPS"/>
+<part name="GPS" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SMACONNECTOR" device="_EDGE_UFL" value="GPS"/>
 <part name="U$6" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$7" library="microbuilder" deviceset="GND" device=""/>
 <part name="PPS" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805"/>
 <part name="U$8" library="microbuilder" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="X2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SMACONNECTOR" device="_EDGE_UFL" value="868"/>
+<part name="868" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SMACONNECTOR" device="_EDGE_UFL" value="868"/>
 <part name="U$9" library="microbuilder" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U$10" library="microbuilder" deviceset="GND" device=""/>
@@ -12541,36 +12541,36 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <part name="R5" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="562k"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP5" library="SparkFun" deviceset="M02" device="PTH" value="Battery"/>
-<part name="X5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SMACONNECTOR" device="_EDGE_UFL" value="434"/>
+<part name="434" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SMACONNECTOR" device="_EDGE_UFL" value="434"/>
 <part name="U$18" library="microbuilder" deviceset="GND" device=""/>
-<part name="C8" library="adafruit" deviceset="C-US" device="C0805" value="10uF"/>
+<part name="C8" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="U$19" library="microbuilder" deviceset="GND" device=""/>
-<part name="C9" library="adafruit" deviceset="C-US" device="C0603" value="1uF"/>
-<part name="C12" library="adafruit" deviceset="C-US" device="C0603" value="1uF"/>
+<part name="C9" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C12" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="U$20" library="microbuilder" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="C13" library="adafruit" deviceset="C-US" device="C0805" value="10uF"/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U$21" library="microbuilder" deviceset="GND" device=""/>
-<part name="C14" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" value="1uF"/>
+<part name="C14" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="U$22" library="Adafruit Feather M0 Basic rev C" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="C15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" value="1uF"/>
+<part name="C15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="U$23" library="Adafruit Feather M0 Basic rev C" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="C16" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="10uF"/>
+<part name="C16" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U$24" library="Adafruit Feather M0 Basic rev C" deviceset="GND" device=""/>
 <part name="C17" library="adafruit" deviceset="C-US" device="C0603" value="1uF"/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U$25" library="microbuilder" deviceset="GND" device=""/>
-<part name="C18" library="adafruit" deviceset="C-US" device="C0805" value="10uF"/>
+<part name="C18" library="adafruit" deviceset="C-US" device="C0805" value="1uF"/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U$26" library="microbuilder" deviceset="GND" device=""/>
-<part name="C19" library="adafruit" deviceset="C-US" device="C0603" value="1uF"/>
+<part name="C19" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U$27" library="microbuilder" deviceset="GND" device=""/>
-<part name="C21" library="adafruit" deviceset="C-US" device="C0603" value="1uF"/>
+<part name="C21" library="adafruit" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="P+18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U$29" library="microbuilder" deviceset="GND" device=""/>
 <part name="H1" library="Adafruit Feather M0 Basic rev C" deviceset="MOUNTINGHOLE" device="2.5"/>
@@ -12578,6 +12578,14 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <part name="H3" library="Adafruit Feather M0 Basic rev C" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="H4" library="Adafruit Feather M0 Basic rev C" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="S1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="EG1213" device=""/>
+<part name="TP4" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
+<part name="TP5" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
+<part name="TP6" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
+<part name="TP7" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
+<part name="TP8" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
+<part name="TP9" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
+<part name="TP10" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
+<part name="TP14" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -12612,7 +12620,7 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 </instance>
 <instance part="U$4" gate="G$1" x="142.24" y="116.84"/>
 <instance part="U$5" gate="G$1" x="133.35" y="116.84"/>
-<instance part="X1" gate="G$1" x="134.62" y="135.89" rot="R180"/>
+<instance part="GPS" gate="G$1" x="134.62" y="135.89" rot="R180"/>
 <instance part="U$6" gate="G$1" x="196.85" y="127"/>
 <instance part="U$7" gate="G$1" x="223.52" y="151.13" rot="R90"/>
 <instance part="PPS" gate="G$1" x="212.09" y="151.13" rot="R90"/>
@@ -12620,7 +12628,7 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <instance part="P+2" gate="VCC" x="124.46" y="125.73" smashed="yes" rot="R270">
 <attribute name="VALUE" x="125.73" y="125.73" size="1.016" layer="96"/>
 </instance>
-<instance part="X2" gate="G$1" x="121.92" y="153.67" rot="R90"/>
+<instance part="868" gate="G$1" x="121.92" y="153.67" rot="R90"/>
 <instance part="U$9" gate="G$1" x="124.46" y="167.64" rot="R180"/>
 <instance part="P+3" gate="VCC" x="2.54" y="154.94" smashed="yes" rot="R90">
 <attribute name="VALUE" x="1.27" y="154.94" size="1.016" layer="96" rot="R180"/>
@@ -12696,7 +12704,10 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <instance part="R5" gate="G$1" x="218.44" y="39.37" rot="R90"/>
 <instance part="GND3" gate="1" x="185.42" y="26.67"/>
 <instance part="JP5" gate="G$1" x="139.7" y="62.23" rot="MR180"/>
-<instance part="X5" gate="G$1" x="105.41" y="166.37" rot="R90"/>
+<instance part="434" gate="G$1" x="105.41" y="166.37" smashed="yes" rot="R90">
+<attribute name="NAME" x="102.87" y="173.99" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="105.41" y="173.99" size="1.27" layer="95" rot="R90"/>
+</instance>
 <instance part="U$18" gate="G$1" x="91.44" y="171.45" rot="R180"/>
 <instance part="C8" gate="G$1" x="118.11" y="123.19" smashed="yes">
 <attribute name="NAME" x="119.126" y="123.825" size="1.27" layer="95"/>
@@ -12760,6 +12771,14 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <instance part="H3" gate="G$1" x="168.91" y="13.97"/>
 <instance part="H4" gate="G$1" x="176.53" y="13.97"/>
 <instance part="S1" gate="1" x="220.98" y="85.09"/>
+<instance part="TP4" gate="G$1" x="92.71" y="102.87"/>
+<instance part="TP5" gate="G$1" x="151.13" y="166.37"/>
+<instance part="TP6" gate="G$1" x="156.21" y="166.37"/>
+<instance part="TP7" gate="G$1" x="161.29" y="166.37"/>
+<instance part="TP8" gate="G$1" x="166.37" y="166.37"/>
+<instance part="TP9" gate="G$1" x="-11.43" y="118.11"/>
+<instance part="TP10" gate="G$1" x="-6.35" y="118.11"/>
+<instance part="TP14" gate="G$1" x="143.51" y="166.37"/>
 </instances>
 <busses>
 </busses>
@@ -12939,16 +12958,16 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <wire x1="156.21" y1="13.97" x2="156.21" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X2" gate="G$1" pin="GND2"/>
-<pinref part="X2" gate="G$1" pin="GND1"/>
+<pinref part="868" gate="G$1" pin="GND2"/>
+<pinref part="868" gate="G$1" pin="GND1"/>
 <wire x1="114.3" y1="156.21" x2="114.3" y2="151.13" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="156.21" x2="114.3" y2="161.29" width="0.1524" layer="91"/>
 <junction x="114.3" y="156.21"/>
 <pinref part="U$9" gate="G$1" pin="GND"/>
 <wire x1="114.3" y1="161.29" x2="124.46" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="161.29" x2="124.46" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="GND4"/>
-<pinref part="X2" gate="G$1" pin="GND3"/>
+<pinref part="868" gate="G$1" pin="GND4"/>
+<pinref part="868" gate="G$1" pin="GND3"/>
 <wire x1="129.54" y1="156.21" x2="129.54" y2="151.13" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="161.29" x2="129.54" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="161.29" x2="129.54" y2="156.21" width="0.1524" layer="91"/>
@@ -12956,29 +12975,29 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <junction x="129.54" y="156.21"/>
 </segment>
 <segment>
-<pinref part="X5" gate="G$1" pin="GND2"/>
-<pinref part="X5" gate="G$1" pin="GND1"/>
+<pinref part="434" gate="G$1" pin="GND2"/>
+<pinref part="434" gate="G$1" pin="GND1"/>
 <wire x1="97.79" y1="168.91" x2="97.79" y2="163.83" width="0.1524" layer="91"/>
 <pinref part="U$18" gate="G$1" pin="GND"/>
 <wire x1="97.79" y1="168.91" x2="91.44" y2="168.91" width="0.1524" layer="91"/>
 <junction x="97.79" y="168.91"/>
-<pinref part="X5" gate="G$1" pin="GND4"/>
-<pinref part="X5" gate="G$1" pin="GND3"/>
+<pinref part="434" gate="G$1" pin="GND4"/>
+<pinref part="434" gate="G$1" pin="GND3"/>
 <wire x1="113.03" y1="168.91" x2="113.03" y2="163.83" width="0.1524" layer="91"/>
 <wire x1="113.03" y1="163.83" x2="97.79" y2="163.83" width="0.1524" layer="91"/>
 <junction x="113.03" y="163.83"/>
 <junction x="97.79" y="163.83"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="GND2"/>
-<pinref part="X1" gate="G$1" pin="GND1"/>
+<pinref part="GPS" gate="G$1" pin="GND2"/>
+<pinref part="GPS" gate="G$1" pin="GND1"/>
 <wire x1="132.08" y1="128.27" x2="137.16" y2="128.27" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="GND"/>
 <wire x1="132.08" y1="128.27" x2="133.35" y2="128.27" width="0.1524" layer="91"/>
 <wire x1="133.35" y1="128.27" x2="133.35" y2="119.38" width="0.1524" layer="91"/>
 <junction x="132.08" y="128.27"/>
-<pinref part="X1" gate="G$1" pin="GND3"/>
-<pinref part="X1" gate="G$1" pin="GND4"/>
+<pinref part="GPS" gate="G$1" pin="GND3"/>
+<pinref part="GPS" gate="G$1" pin="GND4"/>
 <wire x1="137.16" y1="143.51" x2="132.08" y2="143.51" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="143.51" x2="132.08" y2="128.27" width="0.1524" layer="91"/>
 <junction x="132.08" y="143.51"/>
@@ -12996,6 +13015,11 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <pinref part="U3" gate="G$1" pin="MOSI/D11"/>
 <wire x1="104.14" y1="26.67" x2="118.11" y2="26.67" width="0.1524" layer="91"/>
 <label x="110.49" y="26.67" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TP7" gate="G$1" pin="P$1"/>
+<wire x1="161.29" y1="166.37" x2="162.56" y2="166.37" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="166.37" x2="162.56" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -13116,6 +13140,12 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <pinref part="P+18" gate="VCC" pin="VCC"/>
 <wire x1="29.21" y1="168.91" x2="29.21" y2="170.18" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="TP4" gate="G$1" pin="P$1"/>
+<wire x1="92.71" y1="102.87" x2="92.71" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
+<label x="96.52" y="101.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TFT_CS" class="0">
 <segment>
@@ -13152,6 +13182,11 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <pinref part="U3" gate="G$1" pin="MISO/D12"/>
 <wire x1="104.14" y1="41.91" x2="118.11" y2="41.91" width="0.1524" layer="91"/>
 <label x="110.49" y="41.91" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="TP14" gate="G$1" pin="P$1"/>
+<wire x1="143.51" y1="166.37" x2="143.51" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="143.51" y1="162.56" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TFT_RST" class="0">
@@ -13197,6 +13232,11 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <wire x1="190.5" y1="118.11" x2="199.39" y2="118.11" width="0.1524" layer="91"/>
 <label x="199.39" y="118.11" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="TP8" gate="G$1" pin="P$1"/>
+<wire x1="166.37" y1="166.37" x2="167.64" y2="166.37" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="166.37" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SCK" class="0">
 <segment>
@@ -13208,6 +13248,11 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <pinref part="U3" gate="G$1" pin="PB11/SCK"/>
 <wire x1="71.12" y1="13.97" x2="71.12" y2="6.35" width="0.1524" layer="91"/>
 <label x="69.85" y="6.35" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="TP10" gate="G$1" pin="P$1"/>
+<wire x1="-6.35" y1="118.11" x2="-6.35" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="-6.35" y1="114.3" x2="-7.62" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -13221,6 +13266,11 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <wire x1="66.04" y1="13.97" x2="66.04" y2="6.35" width="0.1524" layer="91"/>
 <label x="63.5" y="11.43" size="1.778" layer="95" rot="R270"/>
 </segment>
+<segment>
+<pinref part="TP9" gate="G$1" pin="P$1"/>
+<wire x1="-11.43" y1="118.11" x2="-11.43" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="-11.43" y1="114.3" x2="-12.7" y2="114.3" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="UART_RN2483_RX" class="0">
 <segment>
@@ -13231,6 +13281,11 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <pinref part="U3" gate="G$1" pin="D0/RX"/>
 <wire x1="50.8" y1="13.97" x2="50.8" y2="5.08" width="0.1524" layer="91"/>
 <label x="48.26" y="7.62" size="1.778" layer="95" rot="R270"/>
+</segment>
+<segment>
+<pinref part="TP6" gate="G$1" pin="P$1"/>
+<wire x1="156.21" y1="166.37" x2="156.21" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="156.21" y1="162.56" x2="157.48" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART_RN2483_TX" class="0">
@@ -13243,12 +13298,17 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <wire x1="45.72" y1="13.97" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
 <label x="43.18" y="7.62" size="1.778" layer="95" rot="R270"/>
 </segment>
+<segment>
+<pinref part="TP5" gate="G$1" pin="P$1"/>
+<wire x1="151.13" y1="166.37" x2="151.13" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="162.56" x2="149.86" y2="162.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="RFH"/>
 <wire x1="121.92" y1="146.05" x2="107.95" y2="146.05" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="ANT"/>
+<pinref part="868" gate="G$1" pin="ANT"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -13401,7 +13461,7 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <segment>
 <pinref part="U2" gate="G$1" pin="RFL"/>
 <wire x1="107.95" y1="148.59" x2="111.76" y2="148.59" width="0.1524" layer="91"/>
-<pinref part="X5" gate="G$1" pin="ANT"/>
+<pinref part="434" gate="G$1" pin="ANT"/>
 <wire x1="105.41" y1="158.75" x2="111.76" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="158.75" x2="111.76" y2="148.59" width="0.1524" layer="91"/>
 </segment>
@@ -13424,7 +13484,7 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="X1" gate="G$1" pin="ANT"/>
+<pinref part="GPS" gate="G$1" pin="ANT"/>
 <wire x1="142.24" y1="135.89" x2="142.24" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="L80" gate="G$1" pin="EX_ANT"/>
 <wire x1="142.24" y1="132.08" x2="147.32" y2="132.08" width="0.1524" layer="91"/>
