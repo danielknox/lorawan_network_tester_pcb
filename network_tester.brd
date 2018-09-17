@@ -8,7 +8,7 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
@@ -1398,34 +1398,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="12.573" y="13.843" size="0.8128" layer="25" ratio="18"/>
 <attribute name="VALUE" x="15.113" y="12.065" size="0.4064" layer="27" ratio="10"/>
 </element>
-<element name="TP5" library="Adafruit Feather M0 Basic rev C" package="TESTPOINT_ROUND_1.5MM" value="" x="7.62" y="46.99" smashed="yes" rot="MR0">
-<attribute name="NAME" x="7.747" y="48.133" size="0.6096" layer="26" ratio="18" rot="MR0"/>
-<attribute name="VALUE" x="6.477" y="46.355" size="0.4064" layer="28" ratio="10" rot="MR0"/>
-</element>
-<element name="TP6" library="Adafruit Feather M0 Basic rev C" package="TESTPOINT_ROUND_1.5MM" value="" x="7.62" y="44.45" smashed="yes" rot="MR0">
-<attribute name="NAME" x="7.747" y="45.593" size="0.6096" layer="26" ratio="18" rot="MR0"/>
-<attribute name="VALUE" x="6.477" y="43.815" size="0.4064" layer="28" ratio="10" rot="MR0"/>
-</element>
-<element name="TP7" library="Adafruit Feather M0 Basic rev C" package="TESTPOINT_ROUND_1.5MM" value="" x="45.72" y="41.91" smashed="yes" rot="MR0">
-<attribute name="NAME" x="45.847" y="43.053" size="0.6096" layer="26" ratio="18" rot="MR0"/>
-<attribute name="VALUE" x="44.577" y="41.275" size="0.4064" layer="28" ratio="10" rot="MR0"/>
-</element>
-<element name="TP8" library="Adafruit Feather M0 Basic rev C" package="TESTPOINT_ROUND_1.5MM" value="" x="48.26" y="41.91" smashed="yes" rot="MR0">
-<attribute name="NAME" x="48.387" y="43.053" size="0.6096" layer="26" ratio="18" rot="MR0"/>
-<attribute name="VALUE" x="47.117" y="41.275" size="0.4064" layer="28" ratio="10" rot="MR0"/>
-</element>
-<element name="TP9" library="Adafruit Feather M0 Basic rev C" package="TESTPOINT_ROUND_1.5MM" value="" x="7.62" y="46.99" smashed="yes">
-<attribute name="NAME" x="6.223" y="48.133" size="0.6096" layer="25" ratio="18"/>
-<attribute name="VALUE" x="8.763" y="46.355" size="0.4064" layer="27" ratio="10"/>
-</element>
-<element name="TP10" library="Adafruit Feather M0 Basic rev C" package="TESTPOINT_ROUND_1.5MM" value="" x="7.62" y="44.45" smashed="yes">
-<attribute name="NAME" x="8.763" y="43.053" size="0.6096" layer="25" ratio="18"/>
-<attribute name="VALUE" x="8.763" y="43.815" size="0.4064" layer="27" ratio="10"/>
-</element>
-<element name="TP14" library="Adafruit Feather M0 Basic rev C" package="TESTPOINT_ROUND_1.5MM" value="" x="31.75" y="48.26" smashed="yes" rot="MR0">
-<attribute name="NAME" x="31.877" y="49.403" size="0.6096" layer="26" ratio="18" rot="MR0"/>
-<attribute name="VALUE" x="30.607" y="47.625" size="0.4064" layer="28" ratio="10" rot="MR0"/>
-</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1603,9 +1575,6 @@ design rules under a new name.</description>
 <wire x1="57.2983375" y1="37.2364" x2="49.9044" y2="44.6303375" width="0.254" layer="16"/>
 <wire x1="58.5883375" y1="37.2364" x2="59.0268" y2="36.7979375" width="0.254" layer="16"/>
 <wire x1="59.0268" y1="36.7979375" x2="59.0268" y2="27.68865" width="0.254" layer="16"/>
-<contactref element="TP7" pad="P$1"/>
-<wire x1="46.46" y1="44.96" x2="45.72" y2="44.22" width="0.3048" layer="16"/>
-<wire x1="45.72" y1="44.22" x2="45.72" y2="41.91" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="L80" pad="6"/>
@@ -1811,8 +1780,6 @@ design rules under a new name.</description>
 <wire x1="53.34" y1="30.48" x2="55.2906" y2="28.5294" width="0.254" layer="1"/>
 <wire x1="49.53" y1="36.83" x2="52.07" y2="34.29" width="0.254" layer="16"/>
 <wire x1="52.07" y1="34.29" x2="52.07" y2="30.48" width="0.254" layer="16"/>
-<contactref element="TP14" pad="P$1"/>
-<wire x1="31.75" y1="48.26" x2="33.02" y2="48.26" width="0.3048" layer="16"/>
 </signal>
 <signal name="TFT_RST">
 <contactref element="JP2" pad="4"/>
@@ -1860,9 +1827,6 @@ design rules under a new name.</description>
 <via x="58.42" y="27.94" extent="1-16" drill="0.35"/>
 <wire x1="58.42" y1="27.94" x2="57.94" y2="27.46" width="0.254" layer="1"/>
 <wire x1="57.94" y1="27.46" x2="56.32" y2="27.46" width="0.254" layer="1"/>
-<contactref element="TP8" pad="P$1"/>
-<wire x1="49" y1="44.96" x2="48.26" y2="44.22" width="0.3048" layer="16"/>
-<wire x1="48.26" y1="44.22" x2="48.26" y2="41.91" width="0.3048" layer="16"/>
 </signal>
 <signal name="SCK">
 <contactref element="JP2" pad="7"/>
@@ -1879,9 +1843,6 @@ design rules under a new name.</description>
 <wire x1="49.3616625" y1="19.4564" x2="52.07" y2="22.1647375" width="0.254" layer="16"/>
 <wire x1="52.07" y1="22.1647375" x2="52.07" y2="22.86" width="0.254" layer="16"/>
 <wire x1="35.99043125" y1="19.4564" x2="49.3616625" y2="19.4564" width="0.254" layer="16"/>
-<contactref element="TP10" pad="P$1"/>
-<wire x1="7.62" y1="44.45" x2="5.08" y2="44.45" width="0.3048" layer="1"/>
-<wire x1="5.08" y1="44.45" x2="3.81" y2="45.72" width="0.3048" layer="1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="JP2" pad="6"/>
@@ -1905,9 +1866,6 @@ design rules under a new name.</description>
 <wire x1="52.07" y1="27.94" x2="53.34" y2="26.67" width="0.254" layer="16"/>
 <wire x1="50.8" y1="27.94" x2="52.32" y2="27.94" width="0.254" layer="1"/>
 <wire x1="52.32" y1="27.94" x2="52.32" y2="24.96" width="0.254" layer="1"/>
-<contactref element="TP9" pad="P$1"/>
-<wire x1="7.62" y1="46.99" x2="6.35" y2="48.26" width="0.3048" layer="1"/>
-<wire x1="6.35" y1="48.26" x2="3.81" y2="48.26" width="0.3048" layer="1"/>
 </signal>
 <signal name="UART_RN2483_RX">
 <contactref element="U2" pad="UART_TX"/>
@@ -1925,10 +1883,6 @@ design rules under a new name.</description>
 <wire x1="37.2364" y1="31.3436" x2="37.6936" y2="30.8864" width="0.254" layer="16"/>
 <wire x1="37.6936" y1="30.8864" x2="37.6936" y2="27.7716625" width="0.254" layer="16"/>
 <wire x1="21.81679375" y1="31.3436" x2="37.2364" y2="31.3436" width="0.254" layer="16"/>
-<contactref element="TP6" pad="P$1"/>
-<wire x1="10.16" y1="41.91" x2="8.2306625" y2="41.91" width="0.3048" layer="16"/>
-<wire x1="7.62" y1="42.5206625" x2="7.62" y2="44.45" width="0.3048" layer="16"/>
-<wire x1="8.2306625" y1="41.91" x2="7.62" y2="42.5206625" width="0.3048" layer="16"/>
 </signal>
 <signal name="UART_RN2483_TX">
 <contactref element="U2" pad="UART_RX"/>
@@ -1942,12 +1896,6 @@ design rules under a new name.</description>
 <wire x1="43.18" y1="22.86" x2="49.53" y2="22.86" width="0.254" layer="16"/>
 <wire x1="10.55513125" y1="43.18" x2="10.16" y2="43.18" width="0.254" layer="16"/>
 <wire x1="10.55513125" y1="43.18" x2="21.98513125" y2="31.75" width="0.254" layer="16"/>
-<contactref element="TP5" pad="P$1"/>
-<wire x1="10.16" y1="43.18" x2="9.7028" y2="43.6372" width="0.3048" layer="16"/>
-<wire x1="9.7028" y1="43.6372" x2="9.27175" y2="43.6372" width="0.3048" layer="16"/>
-<wire x1="9.27175" y1="43.6372" x2="8.89" y2="44.01895" width="0.3048" layer="16"/>
-<wire x1="8.89" y1="44.01895" x2="8.89" y2="45.72" width="0.3048" layer="16"/>
-<wire x1="8.89" y1="45.72" x2="7.62" y2="46.99" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="U2" pad="RFH"/>

@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -12579,13 +12579,6 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <part name="H4" library="Adafruit Feather M0 Basic rev C" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="S1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="EG1213" device=""/>
 <part name="TP4" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
-<part name="TP5" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
-<part name="TP6" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
-<part name="TP7" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
-<part name="TP8" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
-<part name="TP9" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
-<part name="TP10" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
-<part name="TP14" library="Adafruit Feather M0 Basic rev C" deviceset="TESTPOINT" device="ROUND1.5MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -12772,13 +12765,6 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <instance part="H4" gate="G$1" x="176.53" y="13.97"/>
 <instance part="S1" gate="1" x="220.98" y="85.09"/>
 <instance part="TP4" gate="G$1" x="92.71" y="102.87"/>
-<instance part="TP5" gate="G$1" x="151.13" y="166.37"/>
-<instance part="TP6" gate="G$1" x="156.21" y="166.37"/>
-<instance part="TP7" gate="G$1" x="161.29" y="166.37"/>
-<instance part="TP8" gate="G$1" x="166.37" y="166.37"/>
-<instance part="TP9" gate="G$1" x="-11.43" y="118.11"/>
-<instance part="TP10" gate="G$1" x="-6.35" y="118.11"/>
-<instance part="TP14" gate="G$1" x="143.51" y="166.37"/>
 </instances>
 <busses>
 </busses>
@@ -13016,11 +13002,6 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <wire x1="104.14" y1="26.67" x2="118.11" y2="26.67" width="0.1524" layer="91"/>
 <label x="110.49" y="26.67" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="TP7" gate="G$1" pin="P$1"/>
-<wire x1="161.29" y1="166.37" x2="162.56" y2="166.37" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="166.37" x2="162.56" y2="162.56" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -13183,11 +13164,6 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <wire x1="104.14" y1="41.91" x2="118.11" y2="41.91" width="0.1524" layer="91"/>
 <label x="110.49" y="41.91" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="TP14" gate="G$1" pin="P$1"/>
-<wire x1="143.51" y1="166.37" x2="143.51" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="143.51" y1="162.56" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="TFT_RST" class="0">
 <segment>
@@ -13232,11 +13208,6 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <wire x1="190.5" y1="118.11" x2="199.39" y2="118.11" width="0.1524" layer="91"/>
 <label x="199.39" y="118.11" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="TP8" gate="G$1" pin="P$1"/>
-<wire x1="166.37" y1="166.37" x2="167.64" y2="166.37" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="166.37" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="SCK" class="0">
 <segment>
@@ -13248,11 +13219,6 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <pinref part="U3" gate="G$1" pin="PB11/SCK"/>
 <wire x1="71.12" y1="13.97" x2="71.12" y2="6.35" width="0.1524" layer="91"/>
 <label x="69.85" y="6.35" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="TP10" gate="G$1" pin="P$1"/>
-<wire x1="-6.35" y1="118.11" x2="-6.35" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="-6.35" y1="114.3" x2="-7.62" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -13266,11 +13232,6 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <wire x1="66.04" y1="13.97" x2="66.04" y2="6.35" width="0.1524" layer="91"/>
 <label x="63.5" y="11.43" size="1.778" layer="95" rot="R270"/>
 </segment>
-<segment>
-<pinref part="TP9" gate="G$1" pin="P$1"/>
-<wire x1="-11.43" y1="118.11" x2="-11.43" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="-11.43" y1="114.3" x2="-12.7" y2="114.3" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="UART_RN2483_RX" class="0">
 <segment>
@@ -13282,11 +13243,6 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <wire x1="50.8" y1="13.97" x2="50.8" y2="5.08" width="0.1524" layer="91"/>
 <label x="48.26" y="7.62" size="1.778" layer="95" rot="R270"/>
 </segment>
-<segment>
-<pinref part="TP6" gate="G$1" pin="P$1"/>
-<wire x1="156.21" y1="166.37" x2="156.21" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="156.21" y1="162.56" x2="157.48" y2="162.56" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="UART_RN2483_TX" class="0">
 <segment>
@@ -13297,11 +13253,6 @@ pwm/pfm or pwm only DC/DC converters, in SOT-23
 <pinref part="U3" gate="G$1" pin="D1/TX"/>
 <wire x1="45.72" y1="13.97" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
 <label x="43.18" y="7.62" size="1.778" layer="95" rot="R270"/>
-</segment>
-<segment>
-<pinref part="TP5" gate="G$1" pin="P$1"/>
-<wire x1="151.13" y1="166.37" x2="151.13" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="151.13" y1="162.56" x2="149.86" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
